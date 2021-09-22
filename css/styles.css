@@ -5,8 +5,9 @@
 
 }
 
-a {
+a:visited:active {
   text-decoration: none;
+  color: black;
 }
 
 body {
@@ -92,6 +93,7 @@ body {
   background-color: gray;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .footer-text {
@@ -99,13 +101,8 @@ body {
   border: 5px solid red;
   background-color: gray;
   justify-content: center;
+  color: black;
 }
 
 
 
-
-
-
-
-
-/*test*/
