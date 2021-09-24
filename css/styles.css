@@ -5,8 +5,12 @@
 
 }
 
-a:visited:active {
+a:visited:active:hover {
   text-decoration: none;
+  color: black;
+}
+
+a {
   color: black;
 }
 
