@@ -21,7 +21,7 @@ body {
   background-color: gray;
   display: flex;
   flex-direction: column;
-  border: 5px solid orange;
+  /*border: 5px solid orange;*/
 }
 
 /*p {
@@ -47,13 +47,13 @@ body {
   padding: 10px;
   font-family: "Copperplate", fantasy;
 
-  border: 3px solid green;
+  /*border: 3px solid green;*/
 }
 
 .page {
   display: flex;
 
-  border: 3px solid purple;
+  /*border: 3px solid purple;*/
 
   height: 100%;
 
@@ -148,10 +148,11 @@ body {
   display: flex;
   width: 500px;
   height: 400px;
-  margin: 20px;
+  margin-top: 300px;
+  margin-bottom: 300px;
   
   background-color: rgb(68, 67, 67);
-  border: 3px solid rgb(231, 2, 2);
+  /*border: 3px solid rgb(231, 2, 2);*/
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -170,19 +171,23 @@ body {
   height: 50px;
   width: 100px;
   border-radius: 15px;
-  border: 2px solid green;
-  background-color: yellow;
+  /*border: 2px solid green;*/
+  background-color: slategray;
   justify-content: center;
   align-items: center;
 }
 
+/*
 .button:hover {
   background-color: purple;
 }
+*/
 
+/*
 .button:active {
   background-color: black;
 }
+*/
 
 .footer {
   display: flex;
@@ -195,7 +200,8 @@ body {
 
 .footer-text {
   display: flex;
-  border: 5px solid red;
+  /*border: 5px solid red;*/
+  border-radius: 5px;
   background-color: gray;
   justify-content: center;
   color: black;
