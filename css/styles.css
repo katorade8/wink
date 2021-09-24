@@ -21,6 +21,10 @@ body {
   border: 5px solid orange;
 }
 
+p {
+  color: red;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -49,7 +53,58 @@ body {
 
   justify-content: center;
   align-content: center;
+  /*flex-direction: column;*/
+}
+
+.profile-page {
+  display: flex;
+
+  border: 5px solid green;
+  justify-content: center;
+}
+
+.bio {
+
+  margin: 10px;
+  border: 5px solid blue;
+  font-size: 20px;
+}
+
+.profile-picture {
+  display: flex;
+
+  width: 100px;
+
+  border: 3px solid red;
+
+  border-radius: 50px;
+}
+
+
+/*FIXME Size of this box is iffy, look over*/
+.post-container {
+  display: flex;
+  /*margin: 30px;*/
+  height: 100%;  
+  border: 5px solid red;
   flex-direction: column;
+  align-items: center;
+}
+
+.post-picture {
+  display: flex;
+  justify-content: center;
+
+
+  width: 50%;
+  height: 50%;
+  border: 5px solid green;
+}
+
+.post-text {
+  display: flex;
+  justify-content: flex-start;
+  border: 5px solid red;
 }
 
 
