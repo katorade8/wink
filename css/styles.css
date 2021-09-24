@@ -15,6 +15,7 @@ a:visited:active:hover {
 
 a {
   color: black;
+  padding: 15px
 }
 
 body {
@@ -40,6 +41,9 @@ body {
 .header-text {
   display: flex;
   justify-content: center;
+
+  /*Added coloring for dark theme*/
+  color: gainsboro;
 
   padding: 10px;
   font-family: "Copperplate", fantasy;
@@ -72,6 +76,17 @@ body {
   margin: 10px;
   border: 5px solid blue;
   font-size: 20px;
+}
+
+.bio-text {
+  height: fit-content;
+  padding: 15px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: flex-start;
+  color: gainsboro;
+  /*border: 5px solid rgb(25, 65, 177);*/
+  /*width: 400px;*/
 }
 
 .profile-picture {
@@ -123,6 +138,7 @@ body {
   padding-bottom: 0px;
   display: flex;
   justify-content: flex-start;
+  color: gainsboro;
   /*border: 5px solid rgb(25, 65, 177);*/
   width: 400px;
 }
