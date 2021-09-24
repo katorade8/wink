@@ -16,11 +16,8 @@ a {
 
 body {
   background-color: gray;
-
   display: flex;
-
   flex-direction: column;
-
   border: 5px solid orange;
 }
 
@@ -82,7 +79,6 @@ p {
 
   border-radius: 50px;
 }
-
 
 /*FIXME Size of this box is iffy, look over*/
 .post-container {
