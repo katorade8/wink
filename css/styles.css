@@ -149,7 +149,7 @@ body {
   width: 500px;
   height: 400px;
   margin: 20px;
-  padding: 10%;
+  
   background-color: rgb(68, 67, 67);
   border: 3px solid rgb(231, 2, 2);
   flex-direction: column;
@@ -173,6 +173,7 @@ body {
   border: 2px solid green;
   background-color: yellow;
   justify-content: center;
+  align-items: center;
 }
 
 .button:hover {
