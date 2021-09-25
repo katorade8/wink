@@ -8,7 +8,8 @@ img {
   max-width: 100%;
 }
 
-a, a:visited, a:active {
+
+a:visited:active:hover:link {
   text-decoration: none;
   color: black;
 }
@@ -36,23 +37,26 @@ body {
   justify-content: center;
   align-items: center;
   height: 20%;
-  background-color: rgb(97, 96, 96);
+  background-color: rgb(68, 67, 67);
 }
 
 .header-text {
   display: flex;
   justify-content: center;
 
+  /*Added coloring for dark theme*/
+  color: gainsboro;
+
   padding: 10px;
   font-family: "Copperplate", fantasy;
 
-  border: 3px solid green;
+  /*border: 3px solid green;*/
 }
 
 .page {
   display: flex;
 
-  border: 3px solid purple;
+  /*border: 3px solid purple;*/
 
   height: 100%;
 
@@ -63,15 +67,28 @@ body {
 
 .profile-page {
   display: flex;
+  flex-direction: column;
 
   border: 5px solid green;
   justify-content: center;
+  align-items: center;
 }
 
 .bio {
   margin: 10px;
-  border: 5px solid blue;
+  border: 5px solid grey;
   font-size: 20px;
+}
+
+.bio-text {
+  height: fit-content;
+  padding: 5px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: flex-start;
+  color: gainsboro;
+  /*border: 5px solid rgb(25, 65, 177);*/
+  /*width: 400px;*/
 }
 
 .profile-picture {
@@ -95,7 +112,7 @@ body {
   display: flex;
   height: fit-content;  
   width: 400px;
-  border: 1px solid black;
+  border: 1px solid red;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -107,6 +124,7 @@ body {
   padding-bottom: 10px;
   text-align: left;
   height: fit-content;
+  color: gainsboro;
   /*border: 5px solid slateblue;*/
 }
 
@@ -123,6 +141,7 @@ body {
   padding-bottom: 0px;
   display: flex;
   justify-content: flex-start;
+  color: gainsboro;
   /*border: 5px solid rgb(25, 65, 177);*/
   width: 400px;
 }
@@ -130,12 +149,13 @@ body {
 
 .login-box {
   display: flex;
-  width: 400px;
-  height: 50%;
-  margin: 20px;
-  padding: 10%;
-  background-color: rgb(160, 152, 152);
-  border: 3px solid rgb(231, 2, 2);
+  width: 500px;
+  height: 400px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  
+  background-color: rgb(68, 67, 67);
+  /*border: 3px solid rgb(231, 2, 2);*/
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -144,7 +164,7 @@ body {
 /*Fix Me*/
 .typing-box {
   display: flex;
-  height: 40px;
+  height: 50px;
   width: 200px;
   border: 2px solid black;
 }
@@ -154,23 +174,28 @@ body {
   height: 50px;
   width: 100px;
   border-radius: 15px;
-  border: 2px solid green;
-  background-color: yellow;
+  /*border: 2px solid green;*/
+  background-color: slategray;
   justify-content: center;
+  align-items: center;
 }
 
+/*
 .button:hover {
   background-color: purple;
 }
+*/
 
+/*
 .button:active {
   background-color: black;
 }
+*/
 
 .footer {
   display: flex;
   border: 5px solid black;
-  background-color: gray;
+  background-color: rgb(68, 67, 67);
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -178,7 +203,8 @@ body {
 
 .footer-text {
   display: flex;
-  border: 5px solid red;
+  /*border: 5px solid red;*/
+  border-radius: 5px;
   background-color: gray;
   justify-content: center;
   color: black;
