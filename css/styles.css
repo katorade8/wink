@@ -8,20 +8,22 @@ img {
   max-width: 100%;
 }
 
-a:visited:active:hover {
+a, a:visited, a:active {
   text-decoration: none;
   color: black;
 }
 
-a {
-  color: black;
+a:hover {
+  background-color: teal;
+  color: white;
+  text-decoration: none;
 }
 
 body {
   background-color: gray;
   display: flex;
   flex-direction: column;
-  border: 5px solid orange;
+  /*border: 5px solid orange;*/
 }
 
 /*p {
@@ -102,7 +104,7 @@ body {
 
 .post-header {
   padding: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   text-align: left;
   height: fit-content;
   /*border: 5px solid slateblue;*/
@@ -128,7 +130,7 @@ body {
 
 .login-box {
   display: flex;
-  width: 500px;
+  width: 400px;
   height: 50%;
   margin: 20px;
   padding: 10%;
@@ -142,7 +144,7 @@ body {
 /*Fix Me*/
 .typing-box {
   display: flex;
-  height: 100px;
+  height: 40px;
   width: 200px;
   border: 2px solid black;
 }
@@ -181,6 +183,3 @@ body {
   justify-content: center;
   color: black;
 }
-
-
-
