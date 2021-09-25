@@ -8,13 +8,16 @@ img {
   max-width: 100%;
 }
 
+
 a:visited:active:hover:link {
   text-decoration: none;
   color: black;
 }
 
-a {
-  color: black;
+a:hover {
+  background-color: teal;
+  color: white;
+  text-decoration: none;
 }
 
 body {
@@ -118,7 +121,7 @@ body {
 
 .post-header {
   padding: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   text-align: left;
   height: fit-content;
   color: gainsboro;
@@ -206,6 +209,3 @@ body {
   justify-content: center;
   color: black;
 }
-
-
-
