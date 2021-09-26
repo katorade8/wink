@@ -229,5 +229,19 @@ body {
 }
 
 .photo-display {
-  
+  padding: 15px;
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+@media only screen and (min-width: 1001px) {
+  .content {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .photo-display {
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  }
 }
