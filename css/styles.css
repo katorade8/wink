@@ -147,13 +147,23 @@ body {
   height: fit-content;
   padding: 15px;
   padding-bottom: 0px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;   /*was 100px changed it to have comments have that margin*/
   display: flex;
   justify-content: flex-start;
   color: gainsboro;
   font-size: 20px;
   /*border: 5px solid rgb(25, 65, 177);*/
   width: 400px;
+}
+
+.post-comment {
+  display: flex;
+  border: 3px solid red;
+  width: 100%;
+  height: 50px;
+  color: white;
+
+  margin-bottom: 100px;
 }
 
 
