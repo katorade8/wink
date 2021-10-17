@@ -37,9 +37,7 @@ function addQuote() {
                 console.log(json)
                 let i = Math.floor(Math.random() * 10) 
                 document.getElementById("quote").innerHTML = json[i].content.rendered
-                for (let i = 0; i < json.length; ++i) {
-                    json[i] = null;
-                }
+                json = []
             })
     })
 
