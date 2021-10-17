@@ -1,17 +1,12 @@
 * {
   margin: 0px;
   box-sizing: border-box;
-
+  color: white;
 }
 
 
 img {
   max-width: 100%;
-}
-
-a:visited, a:active, a:hover ,a:link {
-  text-decoration: none;
-  color: black;
 }
 
 body {
@@ -277,4 +272,9 @@ body {
 .grid-item img {
   display: block;
   max-width: 100%;
+}
+
+a:visited, a:active, a:hover ,a:link {
+  text-decoration: none;
+  color: white;
 }
