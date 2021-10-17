@@ -28,7 +28,7 @@ function addQuote() {
     document.getElementById("quoteButton").addEventListener("click", event => {
         event.preventDefault();
 
-        let url = "https://quotesondesign.com/wp-json/wp/v2/posts/"//?orderby=rand";
+        let url = "https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand";
 
         fetch(url)
             .then(response => {
