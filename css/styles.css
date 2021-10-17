@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   box-sizing: border-box;
-  color: white;
 }
 
 
@@ -221,9 +220,20 @@ body {
   display: flex;
   /*border: 5px solid red;*/
   border-radius: 5px;
-  background-color: gray;
   justify-content: center;
-  color: black;
+  color: white;
+}
+
+.footer-text a:hover,
+.footer-text a:active {
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-text a {
+  color: white;
+  text-decoration: none;
 }
 
 .navbar {
@@ -274,7 +284,14 @@ body {
   max-width: 100%;
 }
 
-a:visited, a:active, a:hover ,a:link {
+.nav-link:visited {
   text-decoration: none;
   color: white;
+}
+
+.nav-link:active,
+.nav-link:hover  {
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
 }
