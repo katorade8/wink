@@ -290,7 +290,8 @@ body {
 }
 
 .nav-link:active,
-.nav-link:hover  {
+.nav-link:hover,
+.nav-item.active  {
   color: white;
   font-size: 18px;
   font-weight: 900;
