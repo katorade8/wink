@@ -25,8 +25,8 @@ function addComments() {
 
 function addQuote() {
 
-    document.getElementById("quoteButton").addEventListener("click", event => {
-        event.preventDefault();
+    //document.getElementById("quoteButton").addEventListener("click", event => {
+        //event.preventDefault();
 
         let url = "https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand";
 
@@ -37,8 +37,8 @@ function addQuote() {
                 console.log(json)
                 let i = Math.floor(Math.random() * 10) 
                 document.getElementById("quote").innerHTML = json[i].content.rendered
-                json = []
+                json = [];
             })
-    })
+    //})
 
 }
